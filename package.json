@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fusetext",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fuse HTML/Markdown text fragments safely for docs pipelines.",
+  "bin": {
+    "fusetext": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fusetext.git"
+  },
+  "homepage": "https://theworker02.github.io/fusetext/",
+  "keywords": [
+    "fuse",
+    "text",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
